@@ -7,6 +7,7 @@ body {
     color: #000000;
     margin: 0;
     padding: 0;
+    padding-top: 70px;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
@@ -15,10 +16,41 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 5px 10%;
     background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+a
+{
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+.main
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-item
+{
+    margin-bottom: 5px;
+}
+
+.contact-item strong
+{
+    display: inline-block;
+    min-width: 80px;
 }
