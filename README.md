@@ -1,1 +1,1 @@
-a few words about me
+A few words about me and my contacts
